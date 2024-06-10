@@ -1,0 +1,82 @@
+body{
+    background-color: rgb(86, 70, 99);
+    color: black;
+}
+div {
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.icon {
+    max-width: 200px;
+    padding-bottom: 30px;
+}
+
+#div1 {
+    border: 5px rgb(0, 0, 0) solid;
+    max-width: 70%;
+    max-height: 20%;
+    position: relative;
+}
+
+/* #div2 {
+    position: relative;
+    right: 25%;
+    max-width: 50%;
+}
+
+#div3 {
+    position: relative;
+    bottom: 34px;
+    left: 25%;
+    max-width: 50%;
+} */
+.divs{
+   background-image: url(img/one.png);
+   object-fit: fill;
+}
+#div2 {
+    float: left;
+    max-width: 50%;
+}
+
+#div3 {
+    float: right;
+    max-width: 50%;
+}
+
+input[type="date"] {
+    cursor: pointer;
+}
+
+.bingo input {
+    width: 295px;
+    margin-left: 0;
+}
+
+.bingo p {
+    text-align:center;
+    
+}
+
+.critdmg {
+    float:right;
+    width: 50%;
+   
+}
+.critrate {
+    float:left;
+    width: 50%;
+    
+}
+.critvalue {
+    float: bottom;
+    width: 100%;
+}
+
+/*.seven {
+    background-color: rgb(80, 180, 127)
+}*/ 
